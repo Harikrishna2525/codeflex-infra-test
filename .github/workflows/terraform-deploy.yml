@@ -3,7 +3,7 @@ name: Terraform provisioning infra through GitHub Actions
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   terraform:
